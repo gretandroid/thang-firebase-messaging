@@ -6,13 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/subcribeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="176dp"
+        android:onClick="onClickSubcribe"
+        android:text="Subcribe"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/unsubcribeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:onClick="onClickUnsubcribe"
+        android:text="Unsubcribe"
+        app:layout_constraintStart_toStartOf="@+id/subcribeButton"
+        app:layout_constraintTop_toBottomOf="@+id/subcribeButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>

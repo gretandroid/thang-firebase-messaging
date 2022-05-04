@@ -9,6 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FireBaseMessaging">
+        <service
+            android:name=".FireBaseService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"></action>
+            </intent-filter>
+        </service>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

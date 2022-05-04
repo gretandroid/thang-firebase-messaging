@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "551145895103",
+    "project_id": "gretafirebasemessaging",
+    "storage_bucket": "gretafirebasemessaging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551145895103:android:d739605db83e0ecd87c20a",
+        "android_client_info": {
+          "package_name": "com.example.firebasemessaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551145895103-8o507qqvrdaishthsqo0r4621165jqt2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf2Vntft7xEdayxLi7RvHxX5UzOwbCgVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551145895103-8o507qqvrdaishthsqo0r4621165jqt2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
